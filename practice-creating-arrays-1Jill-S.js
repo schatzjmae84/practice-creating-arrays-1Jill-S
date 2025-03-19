@@ -15,17 +15,17 @@ Use console.log() to log the arrays.
 4. Log two prices of your choice.
 */
 
-let groceryList = ["tortilla chips", "tomatoes", "avocados", "jalepenos", "onions"];
+let groceryList = ["tortilla chips", "tomatoes", "avocados", "jalapenos", "onions"];
 let prices = [3.59, 1.25, 2.50];
 let sportsTeams = ["Blues", "Cardinals", "Chiefs"];
 
-console.log(groceryList);
-console.log(prices);
-console.log(sportsTeams[1]);
-console.log(groceryList[0]);
-console.log(groceryList[3]);
-console.log(prices[0]);
-console.log(prices[2]);
+console.log(groceryList); // [ 'tortilla chips', 'tomatoes', 'avocados', 'jalapenos', 'onions' ]
+console.log(prices); // [ 3.59, 1.25, 2.5 ]
+console.log(sportsTeams[1]); // Cardinals
+console.log(groceryList[0]); // tortilla chips
+console.log(groceryList[3]); // jalapenos
+console.log(prices[0]); // 3.59
+console.log(prices[2]); // 2.5
 
 
 
